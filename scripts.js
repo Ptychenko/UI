@@ -1,7 +1,7 @@
 const charts = {};
 
 const connection = new signalR.HubConnectionBuilder()
-  .withUrl("https://localhost:7045/indicator")
+  .withUrl("https://localhost:5001/indicator")
   .configureLogging(signalR.LogLevel.Information)
   .build();
 
